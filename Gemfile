@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.4.4'
 
 # Debugger
 gem 'byebug', '>=6.0.2'
@@ -15,3 +15,6 @@ gem 'rspec-core', '>=3.3.2'
 gem 'rspec-expectations', '>=3.3.1'
 gem 'rspec-mocks', '>=3.3.2'
 gem 'rspec-its', '>=1.2.0'
+  
+  gem 'pry'
+  gem 'rb-readline'
