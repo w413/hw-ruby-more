@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.4.4'
 
 # Debugger
 gem 'byebug', '>=6.0.2'
@@ -8,6 +8,8 @@ gem 'byebug', '>=6.0.2'
 # Automatically run tests when files changes
 gem 'guard', '>=2.13.0'
 gem 'guard-rspec', '>=4.6.4'
+gem 'pry'
+gem 'rb-readline'
 
 # RSpec library.
 gem 'rspec', '>=3.3.0'
