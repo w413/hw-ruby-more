@@ -1,7 +1,7 @@
 require 'fun_with_strings'
 require 'byebug'
 
-describe 'palindrome detection' do
+describe 'palindrome detection', :pending => true do
   it 'should work for simple strings' do
     expect('redivider').to  be_a_palindrome
     expect('abracadabra').not_to  be_a_palindrome
@@ -15,7 +15,7 @@ describe 'palindrome detection' do
   end    
 end
 
-describe 'word count' do
+describe 'word count', :pending => true do
   it 'should return a hash' do
     expect('now is the time'.count_words).to be_a_kind_of Hash
   end
@@ -36,7 +36,7 @@ describe 'word count' do
   end
 end
 
-describe 'anagram grouping' do
+describe 'anagram grouping', :pending => true do
   describe 'sanity checks' do
     it 'should work on the empty string' do
       expect(''.anagram_groups).to eq([])
